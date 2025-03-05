@@ -8,7 +8,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
       <th-scene>
         <th-mesh>
           <th-boxGeometry />
-          <th-meshBasicMaterial [args]="{ color: 'purple' }" />
+          <th-meshBasicMaterial [args]="{ color: 'yellow' }" />
         </th-mesh>
         <th-ambientLight />
         <th-perspectiveCamera [args]="[75, 2, 0.1, 1000]" [position]="[1, 1, 5]" />
